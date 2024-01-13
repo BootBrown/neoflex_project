@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_68UD4LDEEe6zh9B5lRaEcQ" name="ss_md_currency_d" dataPackage="_68UD4bDEEe6zh9B5lRaEcQ" Server="Localhost 127.0.0.1" FilePath="/media/sf_edu/neoflex/project/files/md_currency_d.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="md_currency_d" firstColumn="2" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="md_currency_d:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_68UD4bDEEe6zh9B5lRaEcQ" name="default" dataManager="_68UD4LDEEe6zh9B5lRaEcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_68UD4rDEEe6zh9B5lRaEcQ" id="_Qp3x8LDEEe6zh9B5lRaEcQ" label="ss_md_currency_d">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_68UD47DEEe6zh9B5lRaEcQ" label="CURRENCY_RK" length="20" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_68UD5LDEEe6zh9B5lRaEcQ" label="DATA_ACTUAL_DATE" length="-1" talendType="id_Date" key="true" nullable="false" pattern="&quot;yyyy-mm-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_68UD5bDEEe6zh9B5lRaEcQ" label="DATA_ACTUAL_END_DATE" length="-1" talendType="id_Date" pattern="&quot;yyyy-mm-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_68UD5rDEEe6zh9B5lRaEcQ" label="CURRENCY_CODE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_68UD57DEEe6zh9B5lRaEcQ" label="CODE_ISO_CHAR" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

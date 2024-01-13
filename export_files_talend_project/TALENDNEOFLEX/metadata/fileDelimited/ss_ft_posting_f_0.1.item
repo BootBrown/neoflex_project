@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_B5V6ELEKEe6tKMxlI3btTg" name="ss_ft_posting_f" dataPackage="_B5V6EbEKEe6tKMxlI3btTg" Server="Localhost 127.0.0.1" FilePath="/media/sf_edu/neoflex/project/files/ft_posting_f.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_B5V6EbEKEe6tKMxlI3btTg" name="default" dataManager="_B5V6ELEKEe6tKMxlI3btTg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_B5V6ErEKEe6tKMxlI3btTg" id="_mLfS8LEJEe6tKMxlI3btTg" comment="ss_ft_posting_f" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B5V6E7EKEe6tKMxlI3btTg" label="ROW_NUMBER" length="2" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B5V6FLEKEe6tKMxlI3btTg" label="OPER_DATE" length="10" talendType="id_Date" key="true" nullable="false" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B5V6FbEKEe6tKMxlI3btTg" label="CREDIT_ACCOUNT_RK" length="20" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B5V6FrEKEe6tKMxlI3btTg" label="DEBET_ACCOUNT_RK" length="20" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B5V6F7EKEe6tKMxlI3btTg" label="CREDIT_AMOUNT" length="18" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B5V6GLEKEe6tKMxlI3btTg" label="DEBET_AMOUNT" length="18" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

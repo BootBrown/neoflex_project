@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_cAiHALCqEe6zh9B5lRaEcQ" name="ss_ft_balance_f" id="_cAIeYLCqEe6zh9B5lRaEcQ" dataPackage="_cAiHAbCqEe6zh9B5lRaEcQ" Server="Localhost 127.0.0.1" FilePath="/media/sf_edu/neoflex/project/files/ft_balance_f.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="ft_balance_f" firstColumn="2" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="ft_balance_f:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cAiHAbCqEe6zh9B5lRaEcQ" name="default" dataManager="_cAiHALCqEe6zh9B5lRaEcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cAiHArCqEe6zh9B5lRaEcQ" id="_CQtS0LCqEe6zh9B5lRaEcQ" label="ss_ft_balance_f">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bhAAcLCsEe6zh9B5lRaEcQ" label="ON_DATE" length="-1" talendType="id_Date" key="true" pattern="&quot;yyyy-mm-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bhAAcbCsEe6zh9B5lRaEcQ" label="ACCOUNT_RK" length="20" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bhAAcrCsEe6zh9B5lRaEcQ" label="CURRENCY_RK" length="20" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bhAAc7CsEe6zh9B5lRaEcQ" label="BALANCE_OUT" length="18" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

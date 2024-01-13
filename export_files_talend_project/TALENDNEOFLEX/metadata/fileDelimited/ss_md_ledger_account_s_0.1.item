@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_OfbKALF8Ee6YSoe9kI0GtQ" name="ss_md_ledger_account_s" dataPackage="_OfbKAbF8Ee6YSoe9kI0GtQ" Server="Localhost 127.0.0.1" FilePath="/media/sf_edu/neoflex/project/files/md_ledger_account_s_utf.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_OfbKAbF8Ee6YSoe9kI0GtQ" name="default" dataManager="_OfbKALF8Ee6YSoe9kI0GtQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OfbKArF8Ee6YSoe9kI0GtQ" id="_JQaZYLF6Ee6YSoe9kI0GtQ" label="ss_md_ledger_account_s">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKA7F8Ee6YSoe9kI0GtQ" label="ROW_NUMBER" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKBLF8Ee6YSoe9kI0GtQ" label="CHAPTER" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKBbF8Ee6YSoe9kI0GtQ" label="CHAPTER_NAME" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKBrF8Ee6YSoe9kI0GtQ" label="SECTION_NUMBER" length="20" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKB7F8Ee6YSoe9kI0GtQ" label="SECTION_NAME" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKCLF8Ee6YSoe9kI0GtQ" label="SUBSECTION_NAME" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKCbF8Ee6YSoe9kI0GtQ" label="LEDGER1_ACCOUNT" length="20" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKCrF8Ee6YSoe9kI0GtQ" label="LEDGER1_ACCOUNT_NAME" length="47" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKC7F8Ee6YSoe9kI0GtQ" label="LEDGER_ACCOUNT" length="20" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKDLF8Ee6YSoe9kI0GtQ" label="LEDGER_ACCOUNT_NAME" length="153" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKDbF8Ee6YSoe9kI0GtQ" label="CHARACTERISTIC" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKDrF8Ee6YSoe9kI0GtQ" label="IS_RESIDENT" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKD7F8Ee6YSoe9kI0GtQ" label="IS_RESERVE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKELF8Ee6YSoe9kI0GtQ" label="IS_RESERVED" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKEbF8Ee6YSoe9kI0GtQ" label="IS_LOAN" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKErF8Ee6YSoe9kI0GtQ" label="IS_RESERVED_ASSETS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKE7F8Ee6YSoe9kI0GtQ" label="IS_OVERDUE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKFLF8Ee6YSoe9kI0GtQ" label="IS_INTEREST" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKFbF8Ee6YSoe9kI0GtQ" label="PAIR_ACCOUNT" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKFrF8Ee6YSoe9kI0GtQ" label="START_DATE" length="10" talendType="id_Date" key="true" nullable="false" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKF7F8Ee6YSoe9kI0GtQ" label="END_DATE" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKGLF8Ee6YSoe9kI0GtQ" label="IS_RUB_ONLY" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKGbF8Ee6YSoe9kI0GtQ" label="MIN_TERM" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKGrF8Ee6YSoe9kI0GtQ" label="MIN_TERM_MEASURE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKG7F8Ee6YSoe9kI0GtQ" label="MAX_TERM" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKHLF8Ee6YSoe9kI0GtQ" label="MAX_TERM_MEASURE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKHbF8Ee6YSoe9kI0GtQ" label="LEDGER_ACC_FULL_NAME_TRANSLIT" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKHrF8Ee6YSoe9kI0GtQ" label="IS_REVALUATION" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OfbKH7F8Ee6YSoe9kI0GtQ" label="IS_CORRECT" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

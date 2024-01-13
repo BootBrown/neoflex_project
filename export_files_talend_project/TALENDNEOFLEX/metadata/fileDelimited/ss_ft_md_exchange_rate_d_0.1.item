@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_knw7ULGWEe6nDsOqeeSnUA" name="ss_ft_md_exchange_rate_d" dataPackage="_knw7UbGWEe6nDsOqeeSnUA" Server="Localhost 127.0.0.1" FilePath="/media/sf_edu/neoflex/project/files/md_exchange_rate_d.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_knw7UbGWEe6nDsOqeeSnUA" name="default" dataManager="_knw7ULGWEe6nDsOqeeSnUA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_knw7UrGWEe6nDsOqeeSnUA" id="_O8jMELGWEe6nDsOqeeSnUA" label="ss_md_exchange_rate_d">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_knw7U7GWEe6nDsOqeeSnUA" label="ROW_NUMBER" length="2" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_knw7VLGWEe6nDsOqeeSnUA" label="DATA_ACTUAL_DATE" length="10" talendType="id_Date" key="true" nullable="false" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_knw7VbGWEe6nDsOqeeSnUA" label="DATA_ACTUAL_END_DATE" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_knw7VrGWEe6nDsOqeeSnUA" label="CURRENCY_RK" length="20" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_knw7V7GWEe6nDsOqeeSnUA" label="REDUCED_COURCE" length="18" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_knw7WLGWEe6nDsOqeeSnUA" label="CODE_ISO_NUM" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

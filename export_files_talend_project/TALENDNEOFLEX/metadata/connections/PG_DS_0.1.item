@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_TxucgLA8Ee6fqMXaAceOMg" name="PG_DS" id="_HTjroLA8Ee6fqMXaAceOMg" label="PG_DS" dataPackage="_NMwsgLCxEe6zh9B5lRaEcQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/neoflex_project?" dbVersionString="V9_X" Port="5432" Username="ds" Password="enc:system.encryption.key.v1:VOiUwSuIRb0K+7kHM23HTp0ha68qAlJhuMvVN2UdVLOgZA==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="neoflex_project" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="ds">
+    <taggedValue xmi:id="_Tx3mcLA8Ee6fqMXaAceOMg" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_Tzf-ILA8Ee6fqMXaAceOMg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_TzySALA8Ee6fqMXaAceOMg" tag="Status" value=""/>
+    <taggedValue xmi:id="_TzySAbA8Ee6fqMXaAceOMg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_TzySArA8Ee6fqMXaAceOMg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_TzySA7A8Ee6fqMXaAceOMg" tag="Description" value=""/>
+    <taggedValue xmi:id="_TzySBLA8Ee6fqMXaAceOMg" tag="Author" value=""/>
+    <taggedValue xmi:id="_TzySBbA8Ee6fqMXaAceOMg" tag="otherParameter"/>
+    <taggedValue xmi:id="_imuP8LA-Ee6d1tzXhRK7kQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_imuP8bA-Ee6d1tzXhRK7kQ" tag="DB ProductVersion" value="14.10 (Ubuntu 14.10-1.pgdg20.04+1)"/>
+    <taggedValue xmi:id="_imuP8rA-Ee6d1tzXhRK7kQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_Tx3mcbA8Ee6fqMXaAceOMg" key="CONN_PARA_KEY_USERNAME" value="ds"/>
+    <parameters xmi:id="_xGJjYLA9Ee6d1tzXhRK7kQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_NMwsgLCxEe6zh9B5lRaEcQ" name="neoflex_project" dataManager="_TxucgLA8Ee6fqMXaAceOMg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_NMwsgbCxEe6zh9B5lRaEcQ" name="ds"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

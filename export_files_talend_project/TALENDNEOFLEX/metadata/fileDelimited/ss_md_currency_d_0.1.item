@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_TACkwbGYEe6nDsOqeeSnUA" name="ss_md_currency_d" dataPackage="_TACkwrGYEe6nDsOqeeSnUA" Server="Localhost 127.0.0.1" FilePath="/media/sf_edu/neoflex/project/files/md_currency_d.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_TACkwrGYEe6nDsOqeeSnUA" name="default" dataManager="_TACkwbGYEe6nDsOqeeSnUA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TACkw7GYEe6nDsOqeeSnUA" id="_cUJC0LGXEe6nDsOqeeSnUA" label="ss_md_currency_d">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TACkxLGYEe6nDsOqeeSnUA" label="ROW_NUMBER" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TACkxbGYEe6nDsOqeeSnUA" label="CURRENCY_RK" length="20" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TACkxrGYEe6nDsOqeeSnUA" label="DATA_ACTUAL_DATE" length="10" talendType="id_Date" key="true" nullable="false" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TACkx7GYEe6nDsOqeeSnUA" label="DATA_ACTUAL_END_DATE" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TACkyLGYEe6nDsOqeeSnUA" label="CURRENCY_CODE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TACkybGYEe6nDsOqeeSnUA" label="CODE_ISO_CHAR" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

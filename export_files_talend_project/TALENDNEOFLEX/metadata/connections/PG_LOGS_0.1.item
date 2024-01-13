@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_faEpILC_Ee6zh9B5lRaEcQ" name="PG_LOGS" id="_YYLTsLC_Ee6zh9B5lRaEcQ" label="PG_LOGS" dataPackage="_fdAoYLC_Ee6zh9B5lRaEcQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/neoflex_project?" dbVersionString="V9_X" Port="5432" Username="logs" Password="enc:system.encryption.key.v1:oevCvDxEdyLRqQ2zvOlKEogavT0esQN5oDmRt+2ShNpNRg==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="neoflex_project" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="logs">
+    <taggedValue xmi:id="_faEpIbC_Ee6zh9B5lRaEcQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_fcN-MLC_Ee6zh9B5lRaEcQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_fcN-MbC_Ee6zh9B5lRaEcQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_fcN-MrC_Ee6zh9B5lRaEcQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_fcN-M7C_Ee6zh9B5lRaEcQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_fcN-NLC_Ee6zh9B5lRaEcQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_fcN-NbC_Ee6zh9B5lRaEcQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_fcN-NrC_Ee6zh9B5lRaEcQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_fcjVYLC_Ee6zh9B5lRaEcQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_fcjVYbC_Ee6zh9B5lRaEcQ" tag="DB ProductVersion" value="14.10 (Ubuntu 14.10-1.pgdg20.04+1)"/>
+    <taggedValue xmi:id="_fcjVYrC_Ee6zh9B5lRaEcQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_faEpIrC_Ee6zh9B5lRaEcQ" key="CONN_PARA_KEY_USERNAME" value="logs"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_fdAoYLC_Ee6zh9B5lRaEcQ" name="neoflex_project" dataManager="_faEpILC_Ee6zh9B5lRaEcQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fdAoYbC_Ee6zh9B5lRaEcQ" name="logs"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

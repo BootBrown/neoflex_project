@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_W-juALDCEe6zh9B5lRaEcQ" name="ss_md_account_d" dataPackage="_W-juAbDCEe6zh9B5lRaEcQ" Server="Localhost 127.0.0.1" FilePath="/media/sf_edu/neoflex/project/files/md_account_d.xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="md_account_d" firstColumn="2" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="md_account_d:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_W-juAbDCEe6zh9B5lRaEcQ" name="default" dataManager="_W-juALDCEe6zh9B5lRaEcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W-juArDCEe6zh9B5lRaEcQ" id="_lC6PALDBEe6zh9B5lRaEcQ" label="ss_md_account_d">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W-juA7DCEe6zh9B5lRaEcQ" label="DATA_ACTUAL_DATE" length="-1" talendType="id_Date" key="true" nullable="false" pattern="&quot;yyyy-mm-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W-juBLDCEe6zh9B5lRaEcQ" label="DATA_ACTUAL_END_DATE" length="-1" talendType="id_Date" pattern="&quot;yyyy-mm-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W-juBbDCEe6zh9B5lRaEcQ" label="ACCOUNT_RK" length="20" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W-juBrDCEe6zh9B5lRaEcQ" label="ACCOUNT_NUMBER" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W-juB7DCEe6zh9B5lRaEcQ" label="CHAR_TYPE" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W-juCLDCEe6zh9B5lRaEcQ" label="CURRENCY_RK" length="20" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W-juCbDCEe6zh9B5lRaEcQ" label="CURRENCY_CODE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
