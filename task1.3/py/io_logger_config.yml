@@ -1,0 +1,8 @@
+version: 1
+
+db_connection:
+    dbname: neoflex_project
+    user: logs
+    password: 654321
+    host: localhost
+    port: 5432
